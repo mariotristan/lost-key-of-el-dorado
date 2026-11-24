@@ -1,0 +1,11 @@
+event_id,time_utc,source_ip,key_id,session,action,result,records,detail
+E001,2025-03-18T12:58:11Z,192.0.2.10,JAGUAR-18,s-11,authenticate,success,0,inventory relay
+E002,2025-03-18T13:00:02Z,192.0.2.10,CONDOR-47,s-74,authenticate,success,0,scheduled reconciliation
+E003,2025-03-18T13:00:05Z,192.0.2.10,CONDOR-47,s-74,export,success,120,reconciliation batch
+E004,2025-03-18T13:03:21Z,198.51.100.38,CONDOR-47,-,authenticate,denied,0,invalid proof
+E005,2025-03-18T13:07:44Z,203.0.113.77,CONDOR-47,s-92,authenticate,success,0,relay accepted credential
+E006,2025-03-18T13:07:58Z,203.0.113.77,CONDOR-47,s-92,list_customers,success,0,customer index
+E007,2025-03-18T13:08:13Z,203.0.113.77,CONDOR-47,s-92,export,success,4900,bulk customer export
+E008,2025-03-18T13:08:19Z,203.0.113.77,CONDOR-47,s-92,admin_settings,denied,0,insufficient role
+E009,2025-03-18T13:09:10Z,198.51.100.38,JAGUAR-18,s-30,authenticate,success,0,inventory audit
+E010,2025-03-18T13:12:00Z,192.0.2.10,CONDOR-47,-,credential_disabled,success,0,incident response
